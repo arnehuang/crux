@@ -1,0 +1,392 @@
+ProductCode,ProductName,Benchmark
+FR15-36,15-36 - Manufacturers,FR52
+FR52.11,52.11 - Food Retailers,FR52
+GE15-36,15-36 - Manufacturers,GE52
+GE52.11,52.11 - Food Retailers,GE52
+GE52.46,52.46 - DIY Retailers,GE52
+JA15-36,15-36 - Manufacturers,JA52
+JA45.21_2,45.21_2 - Residential construction,JA52
+JA52.11,52.11 - Food Retailers,JA52
+JA52.42,52.42 - Clothing retailers,JA52
+JA52.45,52.45 - Electrical retailers,JA52
+UK15-36,15-36 - Manufacturers,UK52
+UK52-52.11,"52-52.11 - UK Retailers non-food (52 less 52.11, 52.6 & 52.7)",UK52
+UK52.2,52.2 - Food & alcohol retailers,UK52
+UK52.3,"52.3 - Retailers of medical, cosmetic & toilet goods",UK52
+UK52.11_1,52.11_1 - Large grocers,UK52
+UK52.11_2,52.11_2 - Supermarkets,UK52
+UK52.11_3,52.11_3 - Convenience grocers,UK52
+UK52.12,52.12 - Multiple retailers (incl department stores),UK52
+UK52.25_6,52.25_6 - Alcoholic beverages & tobacco retailers,UK52
+UK52.31,52.31 - Dispencing chemists,UK52
+UK52.32,52.32 - Retailers of medical & orthopedic goods,UK52
+UK52.33,52.33 - Retailers of cosmetic & toilet goods,UK52
+UK52.41,52.41 - Household textile retailers,UK52
+UK52.41-52.43,"52.41-52.43 - Retailers of textiles, clothing & footwear",UK52
+UK52.41+52.48_1,52.41+52.48_1 - Retailers of home textiles & floor coverings,UK52
+UK52.42,52.42 - Clothing retailers,UK52
+UK52.43,52.43 - Footwear retailer,UK52
+UK52.44,52.44 - Furniture retailers,UK52
+UK52.44-52.46,52.44-52.46 - Retailers of household durables goods,UK52
+UK52.44+52.41,52.44+52.41 - Retailers of furniture & furnishings,UK52
+UK52.45,52.45 - Electrical retailers,UK52
+UK52.45+52.48_2,52.45+52.48_2 - Retailers of electrical & electronic goods,UK52
+UK52.46,52.46 - DIY Retailers,UK52
+UK52.47,"52.47 - Retailers of books, newspapers & periodicals",UK52
+UK52.48_1,52.48_1 - Retailers of floor coverings,UK52
+UK52.48_2,52.48_2 - Retailers of phones & computers,UK52
+UK52.48_3,52.48_3 - Other specialist retailers NES,UK52
+UK52.48_4,52.48_4 - Jewellery retailers,UK52
+UK52.48_5,52.48_5 - Retailers of jewellery & watches,UK52
+UK52.48_6,"52.48_6 - Retailers of sports goods, games & toys",UK52
+UK52.61,52.61 - Mail order and internet,UK52
+UK52.11_2o,UK52.11_2o - Supermarkets (online),UK52
+UK52.44-52.46o,52.44-52.46o - Retailers of household durables goods (Online),UK52
+UK52.41-52.43o,"52.41-52.43o - Retailers of textiles, clothing & footwear (Online)",UK52
+UK52.11_2o,52.11_2o - Food Retailers (Online),UK52
+UK52o,52o - Retailers (Online),UK52
+UK52.12o,52.12o - Multiple retailers (incl department stores) (Online),UK52
+UK52-52.11o,"52-52.11o - UK Retailers non-food (52 less 52.11, 52.6 & 52.7)",UK52
+Non-storeAGG14o,Non-storeAGG14o - Other non-store retailing,UK52
+US15-36,15-36 - Manufacturers,US52
+US45.21_2,45.21_2 - Residential construction,US52
+US50.1,50.1 - Auto retailers,US52
+US50.3,50.3 - Auto part retailers,US52
+US52.3,"52.3 - Retailers of medical, cosmetic & toilet goods",US52
+US52.11,52.11 - Food Retailers,US52
+US52.12,52.12 - Multiple retailers (incl department stores),US52
+US52.33,52.33 - Retailers of cosmetic & toilet goods,US52
+US52.42,52.42 - Clothing retailers,US52
+US52.43_1,52.43_1 - Footwear Retailers,US52
+US52.44,52.44 - Furniture retailers,US52
+US52.45,52.45 - Electrical retailers,US52
+US52.46,52.46 - DIY Retailers,US52
+US52.48_1,52.48_1 - Retailers of floor coverings,US52
+US52.48_4,52.48_4 - Jewellery retailers,US52
+US55.1,55.1 - Hotels,US52
+US55.3,55.3 - Restaurants,US52
+US60.24,60.24 - Hauliers,US52
+FR15,15 - Food & drink producers,FR15-36
+FR15.5,15.5 - Dairy processors,FR15-36
+FR15.9,15.9 - Drink Processors,FR15-36
+FR21.1,21.1 - Pulp paper millers,FR15-36
+FR21.2,21.2 - Paper & paperboard converters,FR15-36
+FR23.2,23.2 - Refiners of petroleum products,FR15-36
+FR24,24 - Producers of chemicals & man-made fibres,FR15-36
+FR24.2,24.2 - Pesticides & agro-chemical products,FR15-36
+FR24.3,"24.3 - Producers of paints, inks & varnishes",FR15-36
+FR24.5,"24.5 - Producers of soap, detergents & perfumes",FR15-36
+FR25.2,25.2 - Manufacturers of plastic products,FR15-36
+FR25.11,25.11 - Producers of rubber tyres & tubes,FR15-36
+FR26.1,26.1 - Glass producers,FR15-36
+FR26.5_6,26.5_6 - Cement & Concrete producers,FR15-36
+FR27.1,27.1 - Steel producers,FR15-36
+FR29,29 - Manufacturers of mechanical products,FR15-36
+FR29.71,29.71 - Producers of electric domestic appliances,FR15-36
+FR31.1,"31.1 - Electric motors, generators & transformers",FR15-36
+FR32.2,32.2 - Manufacturers of telecom equipment,FR15-36
+FR34.1,34.1 - Motor vehicles & their engines,FR15-36
+FR34.3,34.3 - Parts for motor vehicles & engines,FR15-36
+FR35.3,35.3 - Aerospace sector,FR15-36
+FR52,52 - Retailers,FR15-36
+GE15,15 - Food & drink producers,GE15-36
+GE15.52,15.52 - Ice cream makers,GE15-36
+GE15.81,15.81 - Bakers of bread and pastries,GE15-36
+GE15.96,15.96 - Brewers,GE15-36
+GE21,"21 - Pulp, paper & paper products",GE15-36
+GE21.21,"21.21 - Producers of corrugated paper, board & containers",GE15-36
+GE22,22 - Publishers & printers,GE15-36
+GE23.2,23.2 - Refiners of petroleum products,GE15-36
+GE24.1,24.1 - Producers of industrial chemicals,GE15-36
+GE24.2,24.2 - Pesticides & agro-chemical products,GE15-36
+GE24.3,"24.3 - Producers of paints, inks & varnishes",GE15-36
+GE24.5,"24.5 - Producers of soap, detergents & perfumes",GE15-36
+GE24.11,24.11 - Manufacturers of industrial gases,GE15-36
+GE24.12,24.12 - Producers of chemical dyes & pigments,GE15-36
+GE24.15,24.15 - Producers of fertilisers & nitrogen compounds,GE15-36
+GE24.16,24.16 - Producers of plastics in primary form,GE15-36
+GE24.17,24.17 - Producers of synthetic rubber in primary form,GE15-36
+GE24.62,24.62 - Producers of glues & gelatines,GE15-36
+GE25.11,25.11 - Producers of rubber tyres & tubes,GE15-36
+GE25.22,25.22 - Producers of plastic packaging,GE15-36
+GE26,26 - Building & construction materials,GE15-36
+GE26.1,26.1 - Glass producers,GE15-36
+GE26.4,26.4 - Manufacturers of clay construction products,GE15-36
+GE26.5,"26.5 - Producers of cement, lime & plaster",GE15-36
+GE26.6,26.6 - Manufacturers of concrete products,GE15-36
+GE26.62,26.62 - Producers of plasterboard,GE15-36
+GE27.1,27.1 - Steel producers,GE15-36
+GE27.3,"27.3 - Cold drawing, forming or rolling of steel",GE15-36
+GE27.22,"27.22 - Producers of steel tubes, pipes & their fittings",GE15-36
+GE27.42,27.42 - Manufacturers of aluminium products,GE15-36
+GE28,28 - Fabricated metal products,GE15-36
+GE28.72,28.72 - Manufacturers of light metal packaging,GE15-36
+GE29,29 - Manufacturers of mechanical products,GE15-36
+GE29.3,29.3 - Producers of agricultural & forestry machinery,GE15-36
+GE29.4,29.4 - Producers of machine tools,GE15-36
+GE29.11,29.11 - Non aircraft & vehicle engines & turbines,GE15-36
+GE29.12,29.12 - Producers of pumps & compressors,GE15-36
+GE29.13,29.13 - Producers of taps & valves,GE15-36
+GE29.14,"29.14 - Bearings, gears, clutches, gearing & driving elements",GE15-36
+GE29.22,29.22 - Producers of lifting & handling equipment,GE15-36
+GE29.52,"29.52 - Mining, quarrying & construction machinery",GE15-36
+GE29.71,29.71 - Producers of electric domestic appliances,GE15-36
+GE31.1,"31.1 - Electric motors, generators & transformers",GE15-36
+GE31.3,31.3 - Producers of insulated wire & cable,GE15-36
+GE32.1,32.1 - Manufacturers of electronic components,GE15-36
+GE32.2,32.2 - Manufacturers of telecom equipment,GE15-36
+GE33.2,33.2 - Measuring instruments,GE15-36
+GE34.1,34.1 - Motor vehicles & their engines,GE15-36
+GE34.2,34.2 - Manufacturers of trucks,GE15-36
+GE34.3,34.3 - Parts for motor vehicles & engines,GE15-36
+GE35.2,35.2 - Railway producers,GE15-36
+GE35.3,35.3 - Aerospace sector,GE15-36
+GE52,52 - Retailers,GE15-36
+JA15,15 - Food & drink producers,JA15-36
+JA15.1,15.1 - Meat processors,JA15-36
+JA15.5,15.5 - Dairy processors,JA15-36
+JA15.9,15.9 - Drink Processors,JA15-36
+JA21.1,21.1 - Pulp paper millers,JA15-36
+JA21.2,21.2 - Paper & paperboard converters,JA15-36
+JA22,22 - Publishers & printers,JA15-36
+JA23.2,23.2 - Refiners of petroleum products,JA15-36
+JA24.1,24.1 - Producers of industrial chemicals,JA15-36
+JA24.2,24.2 - Pesticides & agro-chemical products,JA15-36
+JA24.3,"24.3 - Producers of paints, inks & varnishes",JA15-36
+JA25.1,25.1 - Manufacturers of rubber products,JA15-36
+JA25.2,25.2 - Manufacturers of plastic products,JA15-36
+JA26.1,26.1 - Glass producers,JA15-36
+JA26.5,"26.5 - Producers of cement, lime & plaster",JA15-36
+JA27.1,27.1 - Steel producers,JA15-36
+JA27.4,27.4 - Processing of non-ferrous metals,JA15-36
+JA29,29 - Manufacturers of mechanical products,JA15-36
+JA29.4,29.4 - Producers of machine tools,JA15-36
+JA29.12,29.12 - Producers of pumps & compressors,JA15-36
+JA29.52,"29.52 - Mining, quarrying & construction machinery",JA15-36
+JA29.71,29.71 - Producers of electric domestic appliances,JA15-36
+JA31,31 - Manufacturers of electrical products,JA15-36
+JA31.1,"31.1 - Electric motors, generators & transformers",JA15-36
+JA31.4,"31.4 - Accumulators, primary cells & batteries",JA15-36
+JA32.1,32.1 - Manufacturers of electronic components,JA15-36
+JA32.2,32.2 - Manufacturers of telecom equipment,JA15-36
+JA33,33 - Producers of medical & precision instruments,JA15-36
+JA33.3,33.3 - Industrial process control apparatus,JA15-36
+JA33.4,33.4 - Optical instruments & photographic equipment,JA15-36
+JA34.1,34.1 - Motor vehicles & their engines,JA15-36
+JA35.1,35.1 - Builders & repairers of ships & boats,JA15-36
+JA36.1,36.1 - Furniture manufacturers,JA15-36
+JA52,52 - Retailers,JA15-36
+UK15-16,"15-16 - Producers of foodstuffs, beverages & tobacco",UK15-36
+UK15.1,15.1 - Meat processors,UK15-36
+UK15.1-15.8,15.1-15.8 - Food producers & processors,UK15-36
+UK15.2,15.2 - Fish processors,UK15-36
+UK15.3,15.3 - Food canners/preservers,UK15-36
+UK15.5,15.5 - Dairy processors,UK15-36
+UK15.11,15.11 - Beef processors,UK15-36
+UK15.11_110,15.11_110 - Processors of  bovine meat,UK15-36
+UK15.11_130,15.11_130 - Processors of swine meat,UK15-36
+UK15.12,15.12 - Poultry processors,UK15-36
+UK15.13,15.13 - Pork processors,UK15-36
+UK15.13_110,"15.13_110 - Producers of dried, smoked or salted meat",UK15-36
+UK15.13_120,15.13_120 - Producers of prepared and  preserved meat,UK15-36
+UK15.43,15.43 - Producers of margarines and edible fats,UK15-36
+UK15.51,15.51 - Fluid milk processors,UK15-36
+UK15.51_110,15.51_110 - Producers of processed liquid milk,UK15-36
+UK15.51_120,15.51_120 - Producers of milk & cream,UK15-36
+UK15.51_300,15.51_300 - Producers of butter & dairy spreads,UK15-36
+UK15.51_400,15.51_400 - Producers of cheese & curd,UK15-36
+UK15.52,15.52 - Ice cream makers,UK15-36
+UK15.61_210,15.61_210 - Millers of wheat & meslin flour,UK15-36
+UK15.71,15.71 - Producers of all prepared animal feeds,UK15-36
+UK15.71_103,15.71_103 - Producers of pig feedstuffs,UK15-36
+UK15.71_105,15.71_105 - Producers of cattle feedstuffs,UK15-36
+UK15.71_107,15.71_107 - Producers of poultry feedstuffs,UK15-36
+UK15.71_109,15.71_109 - Producers of sheep feedstuffs,UK15-36
+UK15.71_110,15.71_110 - Producers of straight animal feedstuffs,UK15-36
+UK15.72,15.72 - Producers of pet foods,UK15-36
+UK15.81,15.81 - Bakers of bread and pastries,UK15-36
+UK15.81_110,15.81_110 - Bakers of fresh bread,UK15-36
+UK15.81_120,15.81_120 - Bakers of fresh pastry & cakes,UK15-36
+UK15.81+15.82,"15.81+15.82 - Bakers of bread, pastry, cakes & biscuits",UK15-36
+UK15.82,"15.82 - Producers of biscuits, pastry goods & cakes",UK15-36
+UK15.83,15.83 - Producers of granulated & refined sugar,UK15-36
+UK15.84,15.84 - Producers of sugar & confectionary products,UK15-36
+UK15.84_220,15.84_220 - Producers of chocolate confectionery,UK15-36
+UK15.85-89,15.85-89 - Producers of ambient foods,UK15-36
+UK15.94,15.94 - Producers of cider & other fruit wines,UK15-36
+UK15.96,15.96 - Brewers,UK15-36
+UK15.98,15.98 - Producers of mineral waters & soft drinks,UK15-36
+UK16,16 - Manufacturers of cigarettes & tobacco,UK15-36
+UK17,17 - Manufacturers of textiles products,UK15-36
+UK18,18 - Producers of wearing apparel,UK15-36
+UK19,19 - Manufacturers of leather products,UK15-36
+UK20,20 - Manufacturers of wood products,UK15-36
+UK20.2,"20.2 - Veneer sheets, plywood & laminboard",UK15-36
+UK20.2_130,20.2_130 - Producers of particle board of wood or other ligneous material,UK15-36
+UK20.3,"20.3 - Producers of veneer, plywood & structural wood",UK15-36
+UK21,"21 - Pulp, paper & paper products",UK15-36
+UK21.12,21.12 - Producers of paper & paperboard,UK15-36
+UK21.12_530,21.12_530 - Producers of coated paper or paperboard,UK15-36
+UK21.21,"21.21 - Producers of corrugated paper, board & containers",UK15-36
+UK21.21_110,21.21_110 - Producers of corrugated paper & board in rolls or sheets,UK15-36
+UK21.21_130,21.21_130 - Producers of corrugated cartons & boxes,UK15-36
+UK21.21_140,21.21_140 - Producers of non-corrugated folding cartons & boxes,UK15-36
+UK22,22 - Publishers & printers,UK15-36
+UK22.1,22.1 - Newspaper publishers,UK15-36
+UK22.2,22.2 - Printers & printer services,UK15-36
+UK22.11,22.11 - Book publishers,UK15-36
+UK23.20_199,23.20_199 - Refiners of petroleum products,UK15-36
+UK24,24 - Producers of chemicals & man-made fibres,UK15-36
+UK24.1,24.1 - Producers of industrial chemicals,UK15-36
+UK24.2,24.2 - Pesticides & agro-chemical products,UK15-36
+UK24.3,"24.3 - Producers of paints, inks & varnishes",UK15-36
+UK24.4,24.4 - Producers of pharmaceuticals,UK15-36
+UK24.5,"24.5 - Producers of soap, detergents & perfumes",UK15-36
+UK24.6,24.6 - Producers of specialist chemicals,UK15-36
+UK24.12,24.12 - Producers of chemical dyes & pigments,UK15-36
+UK24.12_210,24.12_210 - Producers of  synthetic organic colouring material,UK15-36
+UK24.13,24.13 - Producers of inorganic basic chemicals,UK15-36
+UK24.14,24.14 - Producers of organic basic chemicals,UK15-36
+UK24.15,24.15 - Producers of fertilisers & nitrogen compounds,UK15-36
+UK24.15+24.2,"24.15+24.2 - Manufacturers of pesticides, fertilisers etc.",UK15-36
+UK24.16,24.16 - Producers of plastics in primary form,UK15-36
+UK24.16_200,24.16_200 - Producers of polymers of styrene in primary forms,UK15-36
+UK24.16_300,24.16_300 - Producers of polymers of vinyl chloride,UK15-36
+UK24.17,24.17 - Producers of synthetic rubber in primary form,UK15-36
+UK24.51,"24.51 - Producers of soaps, detergents & cleaning preparations",UK15-36
+UK24.52,24.52 - Producers of perfumes & toilet preparations,UK15-36
+UK24.61,24.61 - Producers of explosives,UK15-36
+UK24.62,24.62 - Producers of glues & gelatines,UK15-36
+UK24.63,24.63 - Producers of essential oils,UK15-36
+UK24.66,24.66 - Producers of speciality chemicals,UK15-36
+UK25,25 - Manufacturers of rubber & plastic products,UK15-36
+UK25.1,25.1 - Manufacturers of rubber products,UK15-36
+UK25.2,25.2 - Manufacturers of plastic products,UK15-36
+UK25.11,25.11 - Producers of rubber tyres & tubes,UK15-36
+UK25.21_210,"25.21_210 - Tubes, pipes & hoses of rigid plastics",UK15-36
+UK25.22_140,25.22_140 - Rigid plastic bottles and other containers,UK15-36
+UK25.22_150,25.22_150 - Other plastic packaging including lids etc.,UK15-36
+UK25.23,25.23 - Producers of plastic ware,UK15-36
+UK26,26 - Building & construction materials,UK15-36
+UK26.3,26.3 - Producers of ceramic tiles & flags,UK15-36
+UK26.4-26.63,"26.4-26.63 - Clay, cement, concrete & plaster products",UK15-36
+UK26.4_11,26.4_11 - Producers of building bricks,UK15-36
+UK26.4_111,26.4_111 - Producers of facing bricks,UK15-36
+UK26.4_113,26.4_113 - Producers of common bricks,UK15-36
+UK26.4_115,26.4_115 - Producers of engineering bricks,UK15-36
+UK26.13_110,"26.13_110 - Producers of bottles, jars & other containers",UK15-36
+UK26.51,26.51 - Producers of cement,UK15-36
+UK26.61,26.61 - Manufacturers of concrete construction products,UK15-36
+UK26.61_113,26.61_113 - Building blocks of concrete & artificial stone,UK15-36
+UK26.61_1131,26.61_1131 - Dense concrete building blocks,UK15-36
+UK26.61_1132,26.61_1132 - Lightweight concrete building blocks,UK15-36
+UK26.61_1133,26.61_1133 - Aerated concrete building blocks,UK15-36
+UK26.61_1134,26.61_1134 - Concrete roofing tiles,UK15-36
+UK26.62,26.62 - Producers of plasterboard,UK15-36
+UK26.63,26.63 - Producers of ready mixed concrete,UK15-36
+UK27,27 - Producers & processors of basic metals,UK15-36
+UK27.1,27.1 - Steel producers,UK15-36
+UK27.3,"27.3 - Cold drawing, forming or rolling of steel",UK15-36
+UK27.4,27.4 - Processing of non-ferrous metals,UK15-36
+UK27.42,27.42 - Manufacturers of aluminium products,UK15-36
+UK28,28 - Fabricated metal products,UK15-36
+UK28.1,28.1 - Manufacturers of structural metalworks,UK15-36
+UK28.11,28.11 - Manufacturers of metal structures and parts,UK15-36
+UK28.12,28.12 - Builders carpentry and joinery of metal,UK15-36
+UK28.71,28.71 - Manufacturers of steel drums & similar containers,UK15-36
+UK28.72,28.72 - Manufacturers of light metal packaging,UK15-36
+UK29,29 - Manufacturers of mechanical products,UK15-36
+UK29.1,29.1 - Producers of machinery for producing & using mechanical power,UK15-36
+UK29.12,29.12 - Producers of pumps & compressors,UK15-36
+UK29.12_210,29.12_210 - Producers of liquid pumps,UK15-36
+UK29.12_230,29.12_230 - Rotary positive displacement pumps for liquids,UK15-36
+UK31,31 - Manufacturers of electrical products,UK15-36
+UK32,32 - Manufacturers of electronic products,UK15-36
+UK34,34 - Automotive sector,UK15-36
+UK34.1,34.1 - Motor vehicles & their engines,UK15-36
+UK34.1_299,34.1_299 - Producers of passenger cars,UK15-36
+UK34.1_499,34.1_499 - Producers of commercial vehicles,UK15-36
+UK34.2,34.2 - Manufacturers of trucks,UK15-36
+UK34.3,34.3 - Parts for motor vehicles & engines,UK15-36
+UK35.2,35.2 - Railway producers,UK15-36
+UK35.3,35.3 - Aerospace sector,UK15-36
+UK35.30_910,35.30_910 - Repair & maintenance services for aircraft,UK15-36
+UK36.1,36.1 - Furniture manufacturers,UK15-36
+UK36.13,36.13 - Manufacturers of kitchen furniture,UK15-36
+UK36.13+36.14,36.13+36.14 - Producers of household furniture,UK15-36
+UK36.14,"36.14 - Bedroom, living room and garden furniture",UK15-36
+UK52,52 - Retailers,UK15-36
+US1,1- Agricultural activities,US15-36
+US10.1,10.1 - Coal Miners,US15-36
+US11.1,11.1 - Oil explorers,US15-36
+US13,13 - Metal miners,US15-36
+US14,14 - Mineral miners,US15-36
+US15,15 - Food & drink producers,US15-36
+US15.1,15.1 - Meat processors,US15-36
+US15.3,15.3 - Food canners/preservers,US15-36
+US15.11,15.11 - Beef processors,US15-36
+US15.12,15.12 - Poultry processors,US15-36
+US15.13,15.13 - Pork processors,US15-36
+US15.51,15.51 - Fluid milk processors,US15-36
+US15.52,15.52 - Ice cream makers,US15-36
+US15.61,15.61 - Grain millers,US15-36
+US15.81,15.81 - Bakers of bread and pastries,US15-36
+US15.84,15.84 - Producers of sugar & confectionary products,US15-36
+US15.86,15.86 - Coffee roasters,US15-36
+US15.96,15.96 - Brewers,US15-36
+US15.98,15.98 - Producers of mineral waters & soft drinks,US15-36
+US16,16 - Manufacturers of cigarettes & tobacco,US15-36
+US18,18 - Producers of wearing apparel,US15-36
+US20.3,"20.3 - Producers of veneer, plywood & structural wood",US15-36
+US20.9,20.9 - Producers of wood buildings & mobile homes,US15-36
+US21,"21 - Pulp, paper & paper products",US15-36
+US21.1,21.1 - Pulp paper millers,US15-36
+US21.2,21.2 - Paper & paperboard converters,US15-36
+US21.11,21.11 - Pulp millers,US15-36
+US21.12,21.12 - Producers of paper & paperboard,US15-36
+US21.21_2,21.21_2 - Paperboard containers & boxes,US15-36
+US22.1,22.1 - Newspaper publishers,US15-36
+US22.13,22.13 - Periodical publishers,US15-36
+US23.2,23.2 - Refiners of petroleum products,US15-36
+US24.1,24.1 - Producers of industrial chemicals,US15-36
+US24.2,24.2 - Pesticides & agro-chemical products,US15-36
+US24.3,"24.3 - Producers of paints, inks & varnishes",US15-36
+US24.5,"24.5 - Producers of soap, detergents & perfumes",US15-36
+US24.11,24.11 - Manufacturers of industrial gases,US15-36
+US24.42,24.42 - Producers of pharmaceutical preparations,US15-36
+US25.2,25.2 - Manufacturers of plastic products,US15-36
+US25.11,25.11 - Producers of rubber tyres & tubes,US15-36
+US26,26 - Building & construction materials,US15-36
+US26.1,26.1 - Glass producers,US15-36
+US26.4,26.4 - Manufacturers of clay construction products,US15-36
+US26.5,"26.5 - Producers of cement, lime & plaster",US15-36
+US26.6,26.6 - Manufacturers of concrete products,US15-36
+US27.1,27.1 - Steel producers,US15-36
+US27.22,"27.22 - Producers of steel tubes, pipes & their fittings",US15-36
+US27.42,27.42 - Manufacturers of aluminium products,US15-36
+US27.44,27.44 - Copper products,US15-36
+US28.6,"28.6 - Producers of cutlery, hand-tools & locks",US15-36
+US28.72,28.72 - Manufacturers of light metal packaging,US15-36
+US29,29 - Manufacturers of mechanical products,US15-36
+US29.3,29.3 - Producers of agricultural & forestry machinery,US15-36
+US29.4,29.4 - Producers of machine tools,US15-36
+US29.11,29.11 - Non aircraft & vehicle engines & turbines,US15-36
+US29.13,29.13 - Producers of taps & valves,US15-36
+US29.14,"29.14 - Bearings, gears, clutches, gearing & driving elements",US15-36
+US29.23,29.23 - Producers of refrigeration & service industry machinery,US15-36
+US29.52_1,29.52_1 - Mining and oil & gas machinery,US15-36
+US29.52_3,29.52_3 - Construction machinery,US15-36
+US29.71,29.71 - Producers of electric domestic appliances,US15-36
+US30,30 - Producers of office machinery & computers,US15-36
+US31.1,"31.1 - Electric motors, generators & transformers",US15-36
+US32.1,32.1 - Manufacturers of electronic components,US15-36
+US32.2,32.2 - Manufacturers of telecom equipment,US15-36
+US32.3,32.3 - Manufacturers of Consumer Electronics,US15-36
+US33.1,33 - Medical & precision instruments,US15-36
+US33.2,33.2 - Measuring instruments,US15-36
+US34.1,34.1 - Motor vehicles & their engines,US15-36
+US34.2,34.2 - Manufacturers of trucks,US15-36
+US34.3,34.3 - Parts for motor vehicles & engines,US15-36
+US35.2,35.2 - Railway producers,US15-36
+US35.3,35.3 - Aerospace sector,US15-36
+US52,52 - Retailers,US15-36
