@@ -3,15 +3,17 @@
 
 # # Crux Python Assesment
 
-# In[2]:
+# In[1]:
 
 
 import requests
 import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
 from pathlib import Path
 
 
-# In[3]:
+# In[2]:
 
 
 data = Path("data/data.csv")
@@ -31,7 +33,7 @@ if not mappings.is_file():
         f.write(response.content)
 
 
-# In[5]:
+# In[3]:
 
 
 dfData = pd.read_csv(data, sep=",")
@@ -40,32 +42,32 @@ dfData.head(2)
 
 # # Investigating Insight Score
 
-# In[5]:
+# In[4]:
 
 
 any(dfData.Insight_Score.isnull())
 
 
-# In[7]:
+# In[5]:
 
 
 dfData.groupby(['Period']).count().head(1)
 
 
-# In[8]:
+# In[6]:
 
 
 dfData.groupby(['Industry']).mean()
 
 
-# In[9]:
+# In[7]:
 
 
 get_ipython().run_line_magic('matplotlib', 'inline')
 dfData.hist(column='Insight_Score', bins=50)
 
 
-# In[10]:
+# In[8]:
 
 
 dfData.plot(x='Period', y='Insight_Score')
@@ -77,7 +79,7 @@ dfData.plot(x='Period', y='Insight_Score')
 
 # Filter Insight_Score by removing outliers
 
-# In[12]:
+# In[9]:
 
 
 sd = dfData.Insight_Score.std()
@@ -85,13 +87,13 @@ mean = dfData.Insight_Score.mean()
 sd, mean
 
 
-# In[13]:
+# In[10]:
 
 
 dfData_filtered = dfData[(dfData.Insight_Score < mean+ 3*sd) & (dfData.Insight_Score > mean-3*sd)]
 
 
-# In[14]:
+# In[11]:
 
 
 dfData_filtered.plot(x='Period', y='Insight_Score')
@@ -101,13 +103,13 @@ dfData_filtered.plot(x='Period', y='Insight_Score')
 
 # # Looking into Mappings
 
-# In[15]:
+# In[12]:
 
 
 dfMap = pd.read_csv(mappings, sep=",")
 
 
-# In[16]:
+# In[13]:
 
 
 dfMap.head(5)
@@ -115,7 +117,7 @@ dfMap.head(5)
 
 # Below I inner join to map the columns. More business context may guide decisions such as if left joining makes sense, etc
 
-# In[17]:
+# In[14]:
 
 
 dfMap.rename(columns={'ProductCode': 'Product_Code'}, inplace=True)
@@ -123,7 +125,7 @@ dfMap.rename(columns={'ProductCode': 'Product_Code'}, inplace=True)
 dfmerged = pd.merge(dfData_filtered, dfMap, on='Product_Code')
 
 
-# In[18]:
+# In[15]:
 
 
 dfmerged.head(5)
@@ -133,7 +135,7 @@ dfmerged.head(5)
 
 # Simple outlier detection might involve using static standard deviation. For Example, any Price above or below 3 standard deviations could be flagged (aggregated by Industry), as shown by the list of outliers below
 
-# In[22]:
+# In[16]:
 
 
 mat_prices = dfmerged[dfmerged.Industry == 'MATERIALS'].Price
@@ -146,7 +148,7 @@ outliers_materials_prices.head(5)
 
 # However, since period is a timeseries, it would make more sense to individually analyze by product codes and use, for example, an ARIMA model to detect outliers. To save time, I'll steal some outlier code from https://www.datascience.com/blog/python-anomaly-detection, refactored for python3
 
-# In[26]:
+# In[17]:
 
 
 from stolen_code import plot_results, explain_anomalies
@@ -155,7 +157,7 @@ x = dfOutliers[(dfOutliers.Industry == 'MATERIALS') & (dfOutliers.Product_Code =
 Y = dfOutliers[(dfOutliers.Industry == 'MATERIALS') & (dfOutliers.Product_Code == 'US20.3')].Price
 
 
-# In[27]:
+# In[18]:
 
 
 plot_results(x, y=Y, window_size=10, text_xlabel="Period", sigma_value=1.5,
@@ -169,7 +171,7 @@ events = explain_anomalies(Y, window_size=10, sigma=2)
 
 # *Show date (period) of highest and lowest Insight_Score per Industry.*
 
-# In[22]:
+# In[19]:
 
 
 idx_max = dfOutliers.groupby(['Industry'])['Insight_Score'].transform(max) == dfOutliers['Insight_Score']
@@ -182,13 +184,13 @@ highest, lowest
 
 # *Which industries are the most correlated?*
 
-# In[23]:
+# In[20]:
 
 
 dfmerged.Industry.unique()
 
 
-# In[25]:
+# In[21]:
 
 
 corr = []
@@ -214,3 +216,11 @@ plt.show()
 
 
 # Highest correlation between Information Technology and Industrials, Energy and Materials.
+
+# # Export data
+
+# In[23]:
+
+
+dfmerged.to_csv('data/datanew.csv')
+
