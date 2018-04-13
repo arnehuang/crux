@@ -1,1 +1,3 @@
 # crux
+
+Open Crux.ipynb
